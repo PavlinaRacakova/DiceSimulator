@@ -1,0 +1,44 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: url(blueBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.button a {
+
+    font-size: 50px;
+    color: rgb(42, 39, 39);
+    text-decoration: none;
+    padding: 50px 60px;
+    background-color: #f3adc3;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border: 2px solid #060d8e;
+    border-radius: 30px;
+}
+
+.button a:hover,
+.button a:focus,
+.button a:active {
+  background-color: #fc61c1;
+}
