@@ -25,8 +25,14 @@
 
     </div>
 
-    <div class="button">
-            <a href="http://localhost:8080/twoDices">Roll again</a>
+    <div class="buttonContainer">
+         <div class="button">
+              <a href="http://localhost:8080/twoDices">Roll again</a>
+         </div>
+
+         <div class="button">
+               <a href="http://localhost:8080">Back</a>
+         </div>
     </div>
 
 </body>

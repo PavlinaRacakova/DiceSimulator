@@ -17,8 +17,14 @@
         <img src="/css/dice-${number}.svg"/>
     </div>
 
-    <div class="button">
-            <a href="http://localhost:8080/oneDice">Roll again</a>
+    <div class="buttonContainer">
+         <div class="button">
+              <a href="http://localhost:8080/oneDice">Roll again</a>
+         </div>
+
+         <div class="button">
+               <a href="http://localhost:8080">Back</a>
+         </div>
     </div>
 
 </body>
