@@ -13,13 +13,19 @@ public class DiceSimulatorController {
 
     @GetMapping("/oneDice")
     public ModelAndView oneDice() {
+        int number = random.nextInt(6) + 1;
         ModelAndView modelAndView = new ModelAndView("oneDice");
-        modelAndView.addObject("number", random.nextInt(6) + 1);
+        modelAndView.addObject("number", number);
         return modelAndView;
     }
-//
-//    @GetMapping("/twoDices")
-//    public ModelAndView twoDices() {
-//
-//    }
+
+    @GetMapping("/twoDices")
+    public ModelAndView twoDices() {
+        int numberFirstDice = random.nextInt(6) + 1;
+        int numberSecondDice = random.nextInt(6) + 1;
+        ModelAndView modelAndView = new ModelAndView("twoDices");
+        modelAndView.addObject("dice1", numberFirstDice);
+        modelAndView.addObject("dice2", numberSecondDice);
+        return modelAndView;
+    }
 }
